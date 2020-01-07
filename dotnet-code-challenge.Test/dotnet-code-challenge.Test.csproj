@@ -2,12 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <IsPackable>false</IsPackable>
 
     <AssemblyName>dotnet_code_challenge.Test</AssemblyName>
 
     <RootNamespace>dotnet_code_challenge.Test</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Build\Test</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +23,27 @@
 
   <ItemGroup>
     <ProjectReference Include="..\dotnet-code-challenge\dotnet-code-challenge.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestFeed\Caulfield_Race_InvalidXml.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFeed\Caulfield_Race_NoRace.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFeed\Caulfield_Race_NoHorse.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFeed\Caulfield_Race_TwoHorses.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFeed\Caulfield_Race_ThreeHorses.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFeed\Caulfield_Race_Valid.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

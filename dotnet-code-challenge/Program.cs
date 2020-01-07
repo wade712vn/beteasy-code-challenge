@@ -44,8 +44,6 @@ namespace dotnet_code_challenge
 
 
             serviceProvider.GetService<IApplication>().Run(args);
-
-            Console.Read();
         }
     }
 }

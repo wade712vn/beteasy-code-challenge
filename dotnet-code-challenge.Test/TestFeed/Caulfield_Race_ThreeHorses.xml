@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<meeting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <date>16/12/2017</date>
+  <MeetingType>HorseRacing</MeetingType>
+  <track name="Caulfield" TranslatedName="Caulfield" club="Melbourne R.C." location="M" country="AUS" state="VIC" condition="Good3"/>
+  <Meetingid>92217</Meetingid>
+  <races>
+    <race number="1" name="Evergreen Turf Plate" id="1536514" Status="OPEN">
+      <start_time>16/12/2017 11:30:00 AM</start_time>
+      <distance metres="1100"/>
+      <horses>
+        <horse name="Advancing" country="AUS" age="2" sex="C" colour="b" foaling_date="01/08/2015" id="872699">
+          <number>1</number>
+          <weight allocated="57" total="57"/>
+        </horse>
+        <horse name="Coronel" country="AUS" age="2" sex="C" colour="b" foaling_date="22/08/2015" id="872442">
+          <number>2</number>
+          <weight allocated="57" total="57"/>
+        </horse>
+        <horse name="Coronel" country="AUS" age="2" sex="C" colour="b" foaling_date="22/08/2015" id="872442">
+          <number>3</number>
+          <weight allocated="57" total="57"/>
+        </horse>
+      </horses>
+      <prices>
+        <price>
+          <priceType>WinFixedOdds</priceType>
+          <horses>
+            <horse number="1" Price="4.2"/>
+            <horse number="2" Price="12"/>
+            <horse number="3" Price="45"/>
+          </horses>
+        </price>
+      </prices>
+    </race>
+  </races>
+</meeting>

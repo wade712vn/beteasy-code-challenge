@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<meeting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <date>16/12/2017</date>
+  <MeetingType>HorseRacing</MeetingType>
+  <track name="Caulfield" TranslatedName="Caulfield" club="Melbourne R.C." location="M" country="AUS" state="VIC" condition="Good3"/>
+  <Meetingid>92217</Meetingid>
+  <races>
+  </races>
+</meeting>
