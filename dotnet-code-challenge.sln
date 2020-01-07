@@ -7,11 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge", "do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code-challenge.Test", "dotnet-code-challenge.Test\dotnet-code-challenge.Test.csproj", "{DAC1F19D-DD23-4012-A032-8A95ADDDA5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetEasy.Caulfield", "BetEasy.Caulfield\BetEasy.Caulfield.csproj", "{2C45639E-B7DD-4BB3-8C2E-20A3EF4257B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetEasy.Caulfield", "BetEasy.Caulfield\BetEasy.Caulfield.csproj", "{2C45639E-B7DD-4BB3-8C2E-20A3EF4257B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetEasy.Wolverhampton", "BetEasy.Wolverhampton\BetEasy.Wolverhampton.csproj", "{A476F8E3-2D96-46FD-9E7E-8D147F52B4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetEasy.Wolverhampton", "BetEasy.Wolverhampton\BetEasy.Wolverhampton.csproj", "{A476F8E3-2D96-46FD-9E7E-8D147F52B4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetEasy.Core", "BetEasy.Core\BetEasy.Core.csproj", "{491FD920-9F4D-4BB1-8C76-36EBF4664C96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetEasy.Core", "BetEasy.Core\BetEasy.Core.csproj", "{491FD920-9F4D-4BB1-8C76-36EBF4664C96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{4D272FE1-D236-40BF-9696-A81EDFD510DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{AD2FC2CB-57E2-4717-BCA7-746FB23926EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0003389F-1B74-4BA5-BD83-C4D0A88B60D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{5C1282F8-A45D-4027-97CB-0579DEF30E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +50,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EACCC55-BE34-4771-970A-73373D30714A} = {AD2FC2CB-57E2-4717-BCA7-746FB23926EF}
+		{DAC1F19D-DD23-4012-A032-8A95ADDDA5A0} = {0003389F-1B74-4BA5-BD83-C4D0A88B60D6}
+		{2C45639E-B7DD-4BB3-8C2E-20A3EF4257B1} = {4D272FE1-D236-40BF-9696-A81EDFD510DB}
+		{A476F8E3-2D96-46FD-9E7E-8D147F52B4D7} = {4D272FE1-D236-40BF-9696-A81EDFD510DB}
+		{491FD920-9F4D-4BB1-8C76-36EBF4664C96} = {5C1282F8-A45D-4027-97CB-0579DEF30E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19C4982B-6893-4DB5-9B99-690340DF13FD}
